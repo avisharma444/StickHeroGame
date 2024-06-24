@@ -2,6 +2,10 @@
 
 ## Introduction
 Stick Hero is an engaging and interactive game implemented using JAVA where a character named Stick Hero traverses between platforms by stretching out a stick. The objective is to bridge gaps between platforms accurately to avoid falling into the abyss, while collecting cherries and scoring points. The Project utilizes various concepts od Object Oriented Programming in JAVA and makes use of other libraries / frameworks / softwares like JavaFX , Maven , MySQL as well.
+<div style="text-align: center;">
+  <img src="resources/homepage.png" alt="Homepage Screen" width="200px" height="350px">
+</div>
+
 
 ## Game Mechanics
 - **Character Movement**: Control Stick Hero using key presses to extend a stick and flip the character.
@@ -30,7 +34,6 @@ Stick Hero is an engaging and interactive game implemented using JAVA where a ch
 - - **Marketplace**: Purchase new avatars using collected cherries.
  - **Database Integration**: Connects to MySQL database to store user high scores, cherry count, ID, and password.
 <div style="display: flex; justify-content: space-around;">
-  <img src="resources/homepage.png" alt="Sign Up Screen" width="180px" height="320px">
   <img src="resources/select_character.png" alt="Avatar Selection Screen" width="180px" height="320px">
   <img src="resources/marketplace.png" alt="Marketplace Screen" width="180px" height="320px">
   <img src="resources/game-over.png" alt="Game Over Screen" width="180px" height="320px">
