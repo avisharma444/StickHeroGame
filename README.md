@@ -46,7 +46,7 @@ Stick Hero is an engaging and interactive game where a character named Stick Her
 - **Flyweight Pattern**: Optimizes memory usage by sharing pillar objects based on their widths.
 
 ## Project Structure
-- **Main Class**: `HelloApplication.java` - Run this file to start the game.
+- **Main Class**: `src/main/java/com/example/stickhero/Start3.java` - Run this file to start the game.
 - **Resources**: Contains images, sounds, and other media files.
 - **Serialization**: Save and load game states using serialized objects.
 - **Database**: MySQL integration for user authentication and high score storage.
