@@ -28,13 +28,12 @@ Stick Hero is an engaging and interactive game where a character named Stick Her
 - **Graphics and Music**: Enhanced with images and music files located in the resources folder.
 - **Multithreading**: Implemented in the MusicPlayer class for concurrent sound playback.
 - **User Authentication**: Login and signup functionality using MySQL.
-  ![Login Screen](resources/login_screen.png) *(Placeholder for login screen image)*
+  ![Login Screen](resources/sign-up.png) *(Placeholder for login screen image)*
 - **Avatar Selection**: Multiple avatars available for selection and unlocking.
-  ![Avatar Selection](resources/avatar_selection.png) *(Placeholder for avatar selection image)*
+  ![Avatar Selection](resources/select_character.png) *(Placeholder for avatar selection image)*
 - **Marketplace**: Purchase new avatars using collected cherries.
   ![Marketplace](resources/marketplace.png) *(Placeholder for marketplace image)*
   - **Database Integration**: Connects to MySQL database to store user high scores, cherry count, ID, and password.
-  ![Database Connection](resources/database_connection.png) *(Placeholder for database connection image)*
 
 ## Game Menus
 - **Home Screen**: Start a new game, load a saved game, or log in.
