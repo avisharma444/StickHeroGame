@@ -1,9 +1,7 @@
 # Stick Hero
 
 ## Introduction
-Stick Hero is an engaging and interactive game where a character named Stick Hero traverses between platforms by stretching out a stick. The objective is to bridge gaps between platforms accurately to avoid falling into the abyss, while collecting cherries and scoring points.
-
-![Game Screenshot](resources/screenshot.png) *(Make sure to replace this placeholder with an actual screenshot from your game)*
+Stick Hero is an engaging and interactive game implemented using JAVA where a character named Stick Hero traverses between platforms by stretching out a stick. The objective is to bridge gaps between platforms accurately to avoid falling into the abyss, while collecting cherries and scoring points. The Project utilizes various concepts od Object Oriented Programming in JAVA and makes use of other libraries / frameworks / softwares like JavaFX , Maven , MySQL as well.
 
 ## Game Mechanics
 - **Character Movement**: Control Stick Hero using key presses to extend a stick and flip the character.
@@ -28,12 +26,16 @@ Stick Hero is an engaging and interactive game where a character named Stick Her
 - **Graphics and Music**: Enhanced with images and music files located in the resources folder.
 - **Multithreading**: Implemented in the MusicPlayer class for concurrent sound playback.
 - **User Authentication**: Login and signup functionality using MySQL.
-  ![Login Screen](resources/sign-up.png) *(Placeholder for login screen image)*
 - **Avatar Selection**: Multiple avatars available for selection and unlocking.
-  ![Avatar Selection](resources/select_character.png) *(Placeholder for avatar selection image)*
-- **Marketplace**: Purchase new avatars using collected cherries.
-  ![Marketplace](resources/marketplace.png) *(Placeholder for marketplace image)*
-  - **Database Integration**: Connects to MySQL database to store user high scores, cherry count, ID, and password.
+- - **Marketplace**: Purchase new avatars using collected cherries.
+ - **Database Integration**: Connects to MySQL database to store user high scores, cherry count, ID, and password.
+<div style="display: flex; justify-content: space-around;">
+  <img src="resources/homepage.png" alt="Sign Up Screen" width="180px" height="320px">
+  <img src="resources/select_character.png" alt="Avatar Selection Screen" width="180px" height="320px">
+  <img src="resources/marketplace.png" alt="Marketplace Screen" width="180px" height="320px">
+  <img src="resources/game-over.png" alt="Game Over Screen" width="180px" height="320px">
+  <img src="resources/sign-up.png" alt="Sign Up Screen" width="180px" height="320px">
+</div>
 
 ## Game Menus
 - **Home Screen**: Start a new game, load a saved game, or log in.
