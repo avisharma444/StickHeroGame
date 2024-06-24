@@ -19,7 +19,7 @@ Stick Hero is an engaging and interactive game where a character named Stick Her
 - **A**: Extend the stick while holding the key.
 - **SPACE**: Flip Stick Hero upside down.
 - **S**: Save the game progress.
-- **P**: Pause the game.
+- **top-left**: Use Pause icon to pause the game.
 
 ## Features
 - **Serialization**: Save game progress including score, highest score, and total cherries.
@@ -55,3 +55,7 @@ Stick Hero is an engaging and interactive game where a character named Stick Her
 1. Clone the repository.
    ```sh
    git clone https://github.com/aethernavshulkraven-allain/StickHero.git
+2. Set up the MySQL database:
+   Use the database dump file javafx-video_game_users.sql to set up the database locally on your machine.
+3. Add the mysql-connector-j-8.2.0.jar JAR file to your project structure.
+4. Compile and run the game.
