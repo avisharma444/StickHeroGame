@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stickhero.HelloController">
+   <children>
+      <ImageView fitHeight="359.0" fitWidth="554.0" layoutX="22.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

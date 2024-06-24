@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="413.0" fitWidth="602.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vecteezy_the-game-art-background-of-japan-illustration_30645555.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="39.0" layoutX="547.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@590774.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="155.0" layoutX="-10.0" layoutY="248.0" stroke="BLACK" strokeType="INSIDE" width="106.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="155.0" layoutX="352.0" layoutY="249.0" stroke="BLACK" strokeType="INSIDE" width="57.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="155.0" layoutX="498.0" layoutY="249.0" stroke="BLACK" strokeType="INSIDE" width="86.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#929394" height="415.0" layoutY="-7.0" opacity="0.45" stroke="BLACK" strokeType="INSIDE" width="614.0" />
+      <Text layoutX="34.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GAME OVER !" textAlignment="CENTER" wrappingWidth="500.0">
+         <font>
+            <Font name="Kamikaze 3D Gradient Italic" size="44.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0cdc7" height="224.0" layoutX="119.0" layoutY="67.0" opacity="0.71" stroke="#464646" strokeType="INSIDE" strokeWidth="0.0" width="344.0" />
+      <ImageView fitHeight="47.0" fitWidth="57.0" layoutX="27.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@0x0ss-85BackgroundRemoved.png" />
+         </image>
+      </ImageView>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="226.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" BEST 5" textAlignment="CENTER" wrappingWidth="115.107421875">
+         <font>
+            <Font name="Kamikaze 3D Gradient Italic" size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="227.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCORE 5" textAlignment="CENTER" wrappingWidth="128.107421875">
+         <font>
+            <Font name="Kamikaze 3D Gradient Italic" size="35.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0cdc7" height="65.0" layoutX="142.0" layoutY="308.0" opacity="0.71" stroke="#464646" strokeType="INSIDE" strokeWidth="0.0" width="301.0" />
+      <ImageView fitHeight="58.0" fitWidth="53.0" layoutX="155.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@house-black-shape-for-home-interface-symbol.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="53.0" layoutX="266.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngwing.com.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="65.0" fitWidth="53.0" layoutX="371.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@retry.512x512.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

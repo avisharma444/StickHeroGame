@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stickhero.SignUpController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane prefHeight="547.0" prefWidth="420.0">
+         <children>
+            <Text layoutX="23.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USERNAME">
+               <font>
+                  <Font name="ROGFonts-Regular" size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="22.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD">
+               <font>
+                  <Font name="ROGFonts-Regular" size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="tf_username" layoutX="23.0" layoutY="83.0" prefHeight="30.0" prefWidth="289.0" />
+            <TextField fx:id="tf_password" layoutX="23.0" layoutY="183.0" prefHeight="30.0" prefWidth="289.0" />
+            <Text layoutX="22.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="email">
+               <font>
+                  <Font name="ROGFonts-Regular" size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="tf_email" layoutX="23.0" layoutY="292.0" prefHeight="30.0" prefWidth="289.0" />
+            <Button fx:id="button_sign_up" layoutX="137.0" layoutY="368.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="155.0" style="-fx-background-color: YELLOW;" text="signup" textAlignment="CENTER">
+               <font>
+                  <Font name="ROGFonts-Regular" size="16.0" />
+               </font>
+            </Button>
+            <Text layoutX="28.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" text="already a member?" wrappingWidth="216.35494995117188">
+               <font>
+                  <Font name="ROGFonts-Regular" size="16.0" />
+               </font>
+            </Text>
+            <Button fx:id="button_login" layoutX="229.0" layoutY="432.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="login" textFill="#1a06cc" underline="true">
+               <font>
+                  <Font name="ROGFonts-Regular" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
