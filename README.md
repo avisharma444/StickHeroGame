@@ -34,10 +34,10 @@ Stick Hero is an engaging and interactive game implemented using JAVA where a ch
 - - **Marketplace**: Purchase new avatars using collected cherries.
  - **Database Integration**: Connects to MySQL database to store user high scores, cherry count, ID, and password.
 <div style="display: flex; justify-content: space-around;">
-  <img src="resources/select_character.png" alt="Avatar Selection Screen" width="180px" height="320px">
-  <img src="resources/marketplace.png" alt="Marketplace Screen" width="180px" height="320px">
-  <img src="resources/game-over.png" alt="Game Over Screen" width="180px" height="320px">
-  <img src="resources/sign-up.png" alt="Sign Up Screen" width="180px" height="320px">
+  <img src="resources/select_character.png" alt="Avatar Selection Screen" width="190px" height="320px">
+  <img src="resources/marketplace.png" alt="Marketplace Screen" width="190px" height="320px">
+  <img src="resources/game-over.png" alt="Game Over Screen" width="190px" height="320px">
+  <img src="resources/sign-up.png" alt="Sign Up Screen" width="190px" height="320px">
 </div>
 
 ## Game Menus
