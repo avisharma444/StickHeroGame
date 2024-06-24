@@ -1,54 +1,43 @@
-# StickHero
-In this project, we developed a game where a character named stick-hero traverses between platforms by stretching out a stick.
+# Stick Hero
 
-GitHub repo :- https://github.com/aethernavshulkraven-allain/StickHero.git (this has been kept private as per guidlines)
+## Introduction
+Stick Hero is an engaging and interactive game where a character named Stick Hero traverses between platforms by stretching out a stick. The objective is to bridge gaps between platforms accurately to avoid falling into the abyss, while collecting cherries and scoring points.
 
-Game Mechanics:
+![Game Screenshot](resources/screenshot.png) *(Make sure to replace this placeholder with an actual screenshot from your game)*
 
-The game begins by running HelloAplication.java File
+## Game Mechanics
+- **Character Movement**: Control Stick Hero using key presses to extend a stick and flip the character.
+- **Pillars**: Randomly generated of varying widths and positions.
+- **Cherry Collection**: Collect cherries by flipping Stick Hero upside down while in the air.
+- **Revive Feature**: Use 3 cherries to revive the character once if they fall.
 
-Pillars are generated of random width and at a random x layout on the screen.
+## Key Controls
+- **A**: Extend the stick while holding the key.
+- **SPACE**: Flip Stick Hero upside down.
+- **S**: Save the game progress.
 
-Save game mechanics have been achieved through serialization.
+## Features
+- **Serialization**: Save game progress including score, highest score, and total cherries.
+- **Random Pillar Generation**: Pillars are generated with random widths and positions.
+- **Scoring System**: Earn points by collecting cherries; score is displayed at the top of the screen.
+- **Graphics and Music**: Enhanced with images and music files located in the resources folder.
+- **Multithreading**: Implemented in the MusicPlayer class for concurrent sound playback.
 
-The player can control the stickman character. To stretch out the stick, the player can holds A key. To flip the stickman upside down, the player can press SPACEBAR. To collect cherries, the player must flip the stickman upside down while it is in the air. If the stickman falls into the abyss, the game is over.
+## Game Menus
+- **Home Screen**: Start a new game or load a saved game.
+- **Game Over Menu**: Options to go to the home screen, save current progress, or revive gameplay (if cherries are available).
 
-Music and Graphic(Image) features has been provided and Files are present in resources folder 
+## OOP Concepts Used
+- **Singleton Pattern**: Ensures a single instance of the StickHero class.
+- **Decorator Pattern**: Used for the media player.
+- **Flyweight Pattern**: Optimizes memory usage by sharing pillar objects based on their widths.
 
-Reviving Feature:
+## Project Structure
+- **Main Class**: `HelloApplication.java` - Run this file to start the game.
+- **Resources**: Contains images, sounds, and other media files.
+- **Serialization**: Save and load game states using serialized objects.
 
-The player can be revived once using a 3 cherries. To revive the stickman, the player must press Revive button on the game over menu. After the player has been revived, the cherries (and related score) will be deducted.
-
-Scoring System:
-
-The player earns points for collecting cherries. The more cherries the player collects, the higher their score will be. Restarting, Saving, and Loading:
-
-During the gameplay score is shown on Top of the screen, cherry count is shown on top left of the screen.
-
-To save the player's progress, the player can press S key.
-
-Menu:
-
-Game starts with Home Screen on which player can start a new game or load a previous game.
-
-During the gameplay player can save the progress using S key as said.
-
-Once the pillar fails traverse to pillar 2 a Game Over Menu is displayed, on which player can 1) Go to Home screen 2) Save curent progress 3) Revive gameplay
-
-ALso Highest score till that point is displayed.
-
-Design Patterns:
-
-Singleton : StickHero class
-
-Decorator : Media player
-
-Flyweight : pillars
-
-JUnit:
-
-JUnit tests for crucial flags in  
-
-BONUS : 
-
-We have used Multithreading in MusicPlayer class by implementing the runable interface
+## How to Run
+1. Clone the repository.
+   ```sh
+   git clone https://github.com/aethernavshulkraven-allain/StickHero.git
