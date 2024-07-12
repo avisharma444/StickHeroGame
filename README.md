@@ -58,7 +58,7 @@ Stick Hero is an engaging and interactive game implemented using JAVA where a ch
 ## How to Run
 1. Clone the repository.
    ```sh
-   git clone https://github.com/aethernavshulkraven-allain/StickHero.git
+   git clone https://github.com/avisharma444/StickHeroGame.git
 2. Set up the MySQL database:
    Use the database dump file javafx-video_game_users.sql to set up the database locally on your machine.
 3. Add the mysql-connector-j-8.2.0.jar JAR file to your project structure.
